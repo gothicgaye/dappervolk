@@ -63,7 +63,7 @@ body {
 	background-position: cover;
 }
 
-body {
+.body {
 	width: 800px;
 	height:450px;
 	margin: 50px auto;
@@ -74,6 +74,8 @@ body {
 	border-radius:30px;
 	font-family: 'Itim', cursive;
 	text-align: center;
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
 }
 
 /* TITLES */
