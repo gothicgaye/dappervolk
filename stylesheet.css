@@ -46,6 +46,7 @@ input:checked + label[for='legend'] ~ .css-filters div:not([data-legend]),input:
      margin-right:10px;
      margin-bottom:10px;
      min-width:100px;
+  text-transform:lowercase;
 }
 /* MAIN BODY */
  body {
