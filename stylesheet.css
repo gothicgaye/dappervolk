@@ -233,6 +233,11 @@ h3::after {
      color:black;
      padding-bottom:5px;
 }
+/* LOOKBOOK */
+.look img {
+	margin:10px;
+	border-radius:25%;
+}
 /* OTHER STUFF */
 .el {
 	height:15px !important;
