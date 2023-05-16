@@ -1,6 +1,7 @@
 /* FILTERS */
 /* hiding mechanism */
- input:checked + label[for='everything'] ~ .css-filters div:not([data-everything]),input:checked + label[for='legend'] ~ .css-filters div:not([data-legend]),input:checked + label[for='oran'] ~ .css-filters div:not([data-oran]),input:checked + label[for='fine'] ~ .css-filters div:not([data-fine]),input:checked + label[for='pai'] ~ .css-filters div:not([data-pai]),input:checked + label[for='season'] ~ .css-filters div:not([data-season]),input:checked + label[for='rare'] ~ .css-filters div:not([data-rare]), input:checked + label[for='uncommon'] ~ .css-filters div:not([data-uncommon]), input:checked + label[for='common'] ~ .css-filters div:not([data-common]), input:checked + label[for='custom'] ~ .css-filters div:not([data-custom]){
+ input:checked + label[for='everything'] ~ .css-filters div:not([data-everything]),
+input:checked + label[for='legend'] ~ .css-filters div:not([data-legend]),input:checked + label[for='oran'] ~ .css-filters div:not([data-oran]),input:checked + label[for='fine'] ~ .css-filters div:not([data-fine]),input:checked + label[for='pai'] ~ .css-filters div:not([data-pai]),input:checked + label[for='season'] ~ .css-filters div:not([data-season]),input:checked + label[for='rare'] ~ .css-filters div:not([data-rare]), input:checked + label[for='uncommon'] ~ .css-filters div:not([data-uncommon]), input:checked + label[for='common'] ~ .css-filters div:not([data-common]), input:checked + label[for='custom'] ~ .css-filters div:not([data-custom]){
      display: none;
 }
  input:checked + label[for='everything'] ~ .css-filters div:not([data-everything]),input:checked + label[for='alchemy'] ~ .css-filters div:not([data-alchemy]),input:checked + label[for='season'] ~ .css-filters div:not([data-season]),input:checked + label[for='common'] ~ .css-filters div:not([data-common]),input:checked + label[for='custom'] ~ .css-filters div:not([data-custom]),input:checked + label[for='exclusive'] ~ .css-filters div:not([data-exclusive]),input:checked + label[for='limited'] ~ .css-filters div:not([data-limited]),input:checked + label[for='rare'] ~ .css-filters div:not([data-rare]){
@@ -33,7 +34,7 @@
      text-align:center;
 }
  .css-filters > div {
-    transition: 10s ease-in-out;
+    transition: .10s ease-in-out;
     /* animation: hideFilter .8s 1 forwards!important; */
 }
 /* style */
