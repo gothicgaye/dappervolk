@@ -34,8 +34,8 @@ input:checked + label[for='legend'] ~ .css-filters div:not([data-legend]),input:
      text-align:center;
 }
  .css-filters > div {
-    transition: .10s ease-in-out;
-    /* animation: hideFilter .8s 1 forwards!important; */
+    /* transition: .10s ease-in-out;
+    animation: hideFilter .8s 1 forwards!important; */
 }
 /* style */
  label {
