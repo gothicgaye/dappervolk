@@ -60,7 +60,7 @@ input {
 /* MAIN BODY */
 body {
 	background-image: url("https://dappervolk.com/files/Mar2023_02wsZ/month33promoS.jpg");
-	background-position: cover;
+	background-size: cover;
 }
 
 .body {
@@ -127,7 +127,7 @@ h3::after {
      margin-top:10px;
 }
  .desc p {
-     vertical-align: center;
+     vertical-align: middle;
      padding:5px;
 }
 /* LINKS */
