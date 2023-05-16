@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- TITLE -->
+		<title>Melinoe's Wishlist || DAPPERVOLK</title>
+		<!-- FAVICON -->
+		<link rel="icon" type="image/x-icon" href="https://dappervolk.com/img/items/3/3181-gcYKJ8BP3x-curios-clothier-shop.png">
+		<!-- FONTS -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Grandstander&display=swap" rel="stylesheet">
+		<!-- STYLESHEET -->
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<!-- DESCRIPTION -->
+		<meta name="description" content="Melinoe's Home">
+	</head>
+	<!-- SCRIPT -->
+		<script>
+			function includeHTML() {
+			  var z, i, elmnt, file, xhttp;
+			  /* Loop through a collection of all HTML elements: */
+			  z = document.getElementsByTagName("*");
+			  for (i = 0; i < z.length; i++) {
+				elmnt = z[i];
+				/*search for elements with a certain atrribute:*/
+				file = elmnt.getAttribute("w3-include-html");
+				if (file) {
+				  /* Make an HTTP request using the attribute value as the file name: */
+				  xhttp = new XMLHttpRequest();
+				  xhttp.onreadystatechange = function() {
+					if (this.readyState == 4) {
+					  if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+					  if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+					  /* Remove the attribute, and call this function once more: */
+					  elmnt.removeAttribute("w3-include-html");
+					  includeHTML();
+					}
+				  }
+				  xhttp.open("GET", file, true);
+				  xhttp.send();
+				  /* Exit the function: */
+				  return;
+				}
+			  }
+			}
+		</script> 
+	<body>
+		<div class="body">
+			<img src="https://dappervolk.com/img/link-banners//2.gif">
+			<h1 class="title" >Melinoe's Wishlist</h1>
+			<div class="desc">
+				<img style="" src="https://dappervolk.com/img/avatars/13/13319-header.png?t=1683930817" />
+				<p>
+					<b>Marion</b> (they/them).<br>
+					User <b>MELINOE (#30808)</b> @ D<u>appervol</u>k.
+					<br><br>
+					<b><i>ABOUT THIS PAGE————————</i></b> This is my wishlist. Items with a green background color have been acquired, and items with a pink-ish background color are the ones I want the most.
+					<br><br>
+					<b>✓ added:</b> most pets.
+					<br>
+					<b>✗ to be added: </b>some common pets, chance machines.
+				</p>
+			</div>
+			<br>
+			<br>
+			<div w3-include-html="/displays/mylinks.html"></div>
+			<br>
+			<h2>Clothing & Items</h2>
+			<p id="ref"><a  href="/dappervolk/wishpets">[ Pets here ]</a></p>
+			<input type="radio" id="everything" name="filter-group">
+			<label for="">all / todos </label>
+			<input type="radio" id="custom" name="filter-group">
+			<label for="custom">custom</label>
+			<input type="radio" id="legend" name="filter-group">
+			<label for="legend">legendary</label>
+			<input type="radio" id="oran" name="filter-group">
+			<label for="oran">oran's emporium</label>
+			<input type="radio" id="fine" name="filter-group">
+			<label for="fine">oran's fine goods exchange</label>
+			<input type="radio" id="pai" name="filter-group">
+			<label for="pai">pai's shop of wonders</label>
+			<input type="radio" id="season" name="filter-group">
+			<label for="season">seasonal</label>
+			<input type="radio" id="rare" name="filter-group">
+			<label for="rare">rare</label>
+			<input type="radio" id="uncommon" name="filter-group">
+			<label for="uncommon">uncommon</label>
+			<input type="radio" id="common" name="filter-group">
+			<label for="common">common</label>
+			<section class="css-filters">
+				<div w3-include-html="/displays/mywishlist.html"></div>
+			</section>
+		</div>
+		<script>
+			includeHTML();
+		</script>
+	</body>
+</html>
