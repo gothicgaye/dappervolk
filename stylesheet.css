@@ -74,8 +74,6 @@ body {
 	border-radius:30px;
 	font-family: 'Itim', cursive;
 	text-align: center;
-	-ms-overflow-style: none;  /* IE and Edge */
-	scrollbar-width: none;  /* Firefox */
 }
 
 /* TITLES */
