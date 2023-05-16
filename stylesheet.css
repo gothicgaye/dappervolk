@@ -45,63 +45,73 @@ input:checked + label[for='pp'] ~ .css-filters div:not([data-pp]), input:checked
 }
 
 /* style */
- label {
-     margin-right:10px;
-     margin-bottom:10px;
-	 min-width:40px;
-  text-transform:lowercase;
+label {
+	margin-right:10px;
+	margin-bottom:10px;
+	min-width:40px;
+	text-transform:lowercase;
 }
- input {
-     margin-right:10px;
-     margin-bottom:10px;
-     
+
+input {
+	margin-right:10px;
+	margin-bottom:10px;
 }
+
 /* MAIN BODY */
- body {
-     background-image: url("https://dappervolk.com/files/Mar2023_02wsZ/month33promoS.jpg");
-     background-position: cover;
+body {
+	background-image: url("https://dappervolk.com/files/Mar2023_02wsZ/month33promoS.jpg");
+	background-position: cover;
 }
- .body {
-     width: 800px;
-     height:450px;
-     margin: 50px auto;
-     padding: 50px;
-     overflow:scroll;
-     background-color:#ffffffcc;
-     border: 5px solid #00000026;
-     border-radius:30px;
-     font-family: 'Itim', cursive;
-     text-align: center;
+
+body {
+	width: 800px;
+	height:450px;
+	margin: 50px auto;
+	padding: 50px;
+	overflow:scroll;
+	background-color:#ffffffcc;
+	border: 5px solid #00000026;
+	border-radius:30px;
+	font-family: 'Itim', cursive;
+	text-align: center;
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
 }
+
 /* TITLES */
- h1 {
-     color: #d1a192;
-     font-family: 'Pacifico', cursive;
-     margin-top:0;
+h1 {
+	color: #d1a192;
+	font-family: 'Pacifico', cursive;
+	margin-top:0;
 }
- h2 {
-     color:#d1a192;
-     font-family: 'Grandstander', cursive;
-     letter-spacing:2px;
-     text-decoration: #d1a192 underline overline;
-     text-transform:uppercase;
+
+h2 {
+	color:#d1a192;
+	font-family: 'Grandstander', cursive;
+	letter-spacing:2px;
+	text-decoration: #d1a192 underline overline;
+	text-transform:uppercase;
 }
- h3 {
-     color:#d1a192;
-     font-family: 'Grandstander', cursive;
-     letter-spacing:2px;
-     text-transform:lowercase;
-     font-size:15px;
-     margin-bottom: 5px;
+
+h3 {
+	color:#d1a192;
+	font-family: 'Grandstander', cursive;
+	letter-spacing:2px;
+	text-transform:lowercase;
+	font-size:15px;
+	margin-bottom: 5px;
 }
- h3::before {
-     content: "✧ ";
-     text-decoration:none !important;
+
+h3::before {
+	content: "✧ ";
+	text-decoration:none !important;
 }
- h3::after {
-     content: " ✧";
-     text-decoration:none !important;
+
+h3::after {
+	content: " ✧";
+	text-decoration:none !important;
 }
+
 /* DESCRIPTION */
  .desc {
      width:60%;
