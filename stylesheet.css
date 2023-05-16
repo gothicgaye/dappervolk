@@ -48,12 +48,13 @@ input:checked + label[for='pp'] ~ .css-filters div:not([data-pp]), input:checked
  label {
      margin-right:10px;
      margin-bottom:10px;
+	 min-width:40px;
+  text-transform:lowercase;
 }
  input {
      margin-right:10px;
      margin-bottom:10px;
-     min-width:100px;
-  text-transform:lowercase;
+     
 }
 /* MAIN BODY */
  body {
