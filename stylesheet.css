@@ -1,0 +1,230 @@
+/* FILTERS */
+/* hiding mechanism */
+input:checked + label[for='everything'] ~ .css-filters div:not([data-everything]),input:checked + label[for='legend'] ~ .css-filters div:not([data-legend]),input:checked + label[for='oran'] ~ .css-filters div:not([data-oran]),input:checked + label[for='fine'] ~ .css-filters div:not([data-fine]),input:checked + label[for='pai'] ~ .css-filters div:not([data-pai]),input:checked + label[for='season'] ~ .css-filters div:not([data-season]),input:checked + label[for='rare'] ~ .css-filters div:not([data-rare]), input:checked + label[for='uncommon'] ~ .css-filters div:not([data-uncommon]), input:checked + label[for='common'] ~ .css-filters div:not([data-common]), input:checked + label[for='custom'] ~ .css-filters div:not([data-custom]){
+		display: none;
+		}
+		input:checked + label[for='everything'] ~ .css-filters div:not([data-everything]),input:checked + label[for='alchemy'] ~ .css-filters div:not([data-alchemy]),input:checked + label[for='season'] ~ .css-filters div:not([data-season]),input:checked + label[for='common'] ~ .css-filters div:not([data-common]),input:checked + label[for='custom'] ~ .css-filters div:not([data-custom]),input:checked + label[for='exclusive'] ~ .css-filters div:not([data-exclusive]),input:checked + label[for='limited'] ~ .css-filters div:not([data-limited]),input:checked + label[for='rare'] ~ .css-filters div:not([data-rare]){
+		display: none;
+		}
+		input:checked + label[for='everything'] ~ .css-filters div:not([data-everything]),input:checked + label[for='evolved'] ~ .css-filters div:not([data-evolved]),input:checked + label[for='not'] ~ .css-filters div:not([data-not]){
+		display: none;
+		}
+		input:checked + label[for='pp'] ~ .css-filters div:not([data-pp]), 		input:checked + label[for='rt'] ~ .css-filters div:not([data-rt]), input:checked + label[for='tf'] ~ .css-filters div:not([data-tf]), input:checked + label[for='lh'] ~ .css-filters div:not([data-lh]), input:checked + label[for='sm'] ~ .css-filters div:not([data-sm]), input:checked + label[for='special'] ~ .css-filters div:not([data-special]) {
+		display: none;
+		}
+		/* animation */
+		input:checked + label[for='everything'] ~ .css-filters div:not([data-everything]),input:checked + label[for='legend'] ~ .css-filters div:not([data-legend]),input:checked + label[for='oran'] ~ .css-filters div:not([data-oran]),input:checked + label[for='fine'] ~ .css-filters div:not([data-fine]),input:checked + label[for='pai'] ~ .css-filters div:not([data-pai]),input:checked + label[for='season'] ~ .css-filters div:not([data-season]),input:checked + label[for='rare'] ~ .css-filters div:not([data-rare]),input:checked + label[for='uncommon'] ~ .css-filters div:not([data-uncommon]),input:checked + label[for='common'] ~ .css-filters div:not([data-common]) {
+		animation: hideFilter .8s 1 forwards!important;
+		transition: .10s ease-in-out;
+		}
+		input:checked + label[for='everything'] ~ .css-filters div:not([data-everything]),input:checked + label[for='evolved'] ~ .css-filters div:not([data-evolved]),input:checked + label[for='not'] ~ .css-filters div:not([data-not]){
+		animation: hideFilter .8s 1 forwards!important;
+		transition: .10s ease-in-out;
+		}
+		@keyframes hideFilter {
+		50% {
+		transform:scale(0);
+		height:100px;
+		width:100px;
+		}
+		100% {
+		transform:scale(0);
+		width:0;
+		height:0;
+		margin:0;
+		}
+		}
+		/* section css-filters */
+		.css-filters {
+		padding-top: 30px;
+		padding-bottom: 30px;
+		text-align:center;
+		}
+		.css-filters > div {
+		transition: .10s ease-in-out;
+		}
+		/* style */
+		label {
+		margin-right:10px;
+		margin-bottom:10px;
+		}
+		input {
+		margin-right:10px;
+		margin-bottom:10px;
+		}
+		/* MAIN BODY */
+		body {
+		background-image: url("https://dappervolk.com/files/Mar2023_02wsZ/month33promoS.jpg");
+		background-position: cover;
+		}
+		.body {
+		width: 800px;
+		height:450px;
+		margin: 50px auto;
+		padding: 50px;
+		overflow:scroll;
+		background-color:#ffffffcc;
+		border: 5px solid #00000026;
+		border-radius:30px;
+		font-family: 'Itim', cursive;
+		text-align: center;
+		}
+		/* TITLES */
+		h1 {
+		color: #d1a192;
+		font-family: 'Pacifico', cursive;
+		margin-top:0;
+		}
+		h2 {
+		color:#d1a192;
+		font-family: 'Grandstander', cursive;
+		letter-spacing:2px;
+		text-decoration: #d1a192 underline overline;
+		text-transform:uppercase;
+		}
+		h3 {
+		color:#d1a192;
+		font-family: 'Grandstander', cursive;
+		letter-spacing:2px;
+		text-transform:lowercase;
+		font-size:15px;
+		margin-bottom: 5px;
+		}
+		h3::before {
+		content: "✧ ";
+		text-decoration:none !important;
+		}
+		h3::after {
+		content: " ✧";
+		text-decoration:none !important;
+		}
+		/* DESCRIPTION */
+		.desc {
+		width:60%; 
+		height:auto;
+		margin: 0 auto;
+		padding:10px;
+		overflow:hidden;
+		background-color:#d1a19226;
+		border-radius:3px;
+		font-size:12px;
+		font-family: 'IBM Plex Mono', monospace;
+		}
+		.desc img {
+		height: 120px;
+		margin-top:10px;
+		}
+		.desc p {
+		vertical-align: center;
+		padding:5px;
+		}
+		/* LINKS */
+		/* main links */
+		.links {
+		margin-bottom:20px;
+		font-family: "Roboto Condensed", "Helvetica", "Arial", sans-serif;
+		line-height:40px;
+		text-transform:uppercase;
+		}
+		.links a {
+		margin-right:10px;
+		margin-left:10px;
+		padding: 5px 10px;
+		background-color: #d1a192;
+		border-radius: 5px;
+		color: white;
+		text-decoration: none;
+		}
+		/* referral links */
+		#ref {
+		color:grey;
+		font-size:10px;
+		text-transform:lowercase;
+		margin-top:-20px;
+		margin-bottom:30px;
+		}
+		#ref a {
+		color:grey;
+		}
+		/* ITEMS */
+		.item {
+		width: 150px;
+		height:auto;
+		margin:10px;
+		display:inline-block;
+		transition:.6s ease-in-out;
+		padding:10px;
+		border-radius:30px;
+		}
+		.item img {
+		height:75px;
+		}
+		.item p {
+		height:40px;
+		overflow:hidden;
+		}
+		.item a {
+		text-decoration:none;
+		color:white;
+		font-size:10px;
+		}
+		.itempet {
+		width: auto;
+		height:auto;
+		margin:10px;
+		text-align: center;
+		display:inline-block;
+		transition:.6s ease-in-out;
+		padding:10px;
+		border-radius:30px;
+		}
+		.itempet img {
+		height:110px;
+		}
+		.itempet p {
+		height:20px;
+		overflow:hidden;
+		text-transform:capitalize;
+		color:black;
+		}
+		.itempet a {
+		text-decoration:none;
+		color:white;
+		font-size:10px;
+		margin-right:2px;
+		}
+		.itempet a img {
+		width:auto;
+		height:10px;
+		margin-left:5px;
+		}
+		.hubitem {
+		display:inline-block;
+		height: auto;
+		width: 80px;
+		text-align: center;
+		transition:.6s ease-in-out;
+		padding:10px;
+		background-color:#d1a1923d;
+		border-radius:30px;
+		margin:5px;
+		vertical-align:middle;
+		font-size:12px;
+		}
+		.hubitem img {
+		height:75px;
+		margin-bottom: -6px;
+		box-sizing: border-box;
+		}
+		.hubitem a {
+		text-decoration: none;
+		color:black;
+		padding-bottom:5px;
+		}
+		/* OTHER STUFF */
+		#ac {
+		background-color:#a6bf9f;
+		}
+		#mw {
+		background-color:#d1a192;
+		}
