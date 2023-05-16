@@ -34,7 +34,7 @@
 }
  .css-filters > div {
     transition: 10s ease-in-out;
-    animation: hideFilter .8s 1 forwards!important;
+    /* animation: hideFilter .8s 1 forwards!important; */
 }
 /* style */
  label {
