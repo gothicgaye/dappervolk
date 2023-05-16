@@ -45,6 +45,7 @@ input:checked + label[for='legend'] ~ .css-filters div:not([data-legend]),input:
  input {
      margin-right:10px;
      margin-bottom:10px;
+     min-width:100px;
 }
 /* MAIN BODY */
  body {
@@ -223,17 +224,17 @@ input:checked + label[for='legend'] ~ .css-filters div:not([data-legend]),input:
      background-color:#d1a192;
 }
 #dailyq {
- background-color:#56abbb;
+ background-color:#56abbb3d;
 }
 
 #sideq {
- background-color:#ea9a00;
+ background-color:#ea9a003d;
 }
 
 #mainq {
- background-color:#d85d5d;
+ background-color:#d85d5d3d;
 }
 
 #seasonq {
- background-color:#76a635;
+ background-color:#76a6353d;
 }
