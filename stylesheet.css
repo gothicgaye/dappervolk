@@ -226,6 +226,11 @@ input:checked + label[for='pp'] ~ .css-filters div:not([data-pp]), input:checked
      padding-bottom:5px;
 }
 /* OTHER STUFF */
+.el {
+	height:15px;
+	margin-bottom:5px
+}
+
  #ac {
      background-color:#a6bf9f;
 }
