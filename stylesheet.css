@@ -211,7 +211,7 @@ h3::after {
 }
 
 /* body links */
-p > a {
+.home > p > a {
 	color: #d1a192;
 	text-decoration: wavy underline;
 	font-weight: bold;
