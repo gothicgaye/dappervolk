@@ -214,16 +214,15 @@ h3::after {
 p > a {
 	color: #d1a192;
 	text-decoration: wavy underline;
+	font-weight: bold;
 }
 
 /* ITEMS */
  .item {
 	 height: auto;
-	 width: 150px;
-     
+	 width: 150px;     
 	 margin: 10px;
 	 padding: 10px;
-
 	 border-radius:30px;
 	 display: inline-block;
 }
