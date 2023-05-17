@@ -69,7 +69,11 @@ label[type="radio"] {
 	padding: 3px;
 	background-color: #d1a19226;
 	border: 1px solid #d1a192;
-	margin-left: 10px;
+}
+
+label[type="radio"]::before {
+	content: "🎔";
+	color: #d1a192;
 }
 
 /* MAIN BODY */
