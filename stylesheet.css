@@ -44,12 +44,11 @@ input:checked + label[for='everything'] ~ .css-filters div:not([data-everything]
 }
 
 .css-filters > div {
-	/* transition: .10s ease-in-out;*/
-	animation: hideFilter .8s 1 forwards!important; 
+	/* transition: .10s ease-in-out;
+	animation: hideFilter .8s 1 forwards!important; */
 }
 
 /* style */
-
 input {
 	margin-right:10px;
 	margin-bottom:10px;
