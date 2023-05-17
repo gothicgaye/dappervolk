@@ -67,7 +67,9 @@ input[type="radio"] {
 
 label[type="radio"] {
 	padding: 3px;
-	
+	background-color: #d1a19226;
+	border: 1px solid #d1a192;
+	margin-left: 10px;
 }
 
 /* MAIN BODY */
