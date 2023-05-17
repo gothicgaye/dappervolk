@@ -70,8 +70,6 @@ label {
 	text-transform:lowercase;
 	cursor:pointer;	
 	padding: 3px;
-	background-color: #d1a19226;
-	border: 1px solid #d1a192;
 }
 
 label::before {
