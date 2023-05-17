@@ -101,18 +101,13 @@ body {
 
 .body {
 	height:450px;
-	width: 800px;
-	
+	width: 800px;	
 	margin: 50px auto;
-	padding: 50px;
-	
-	overflow:scroll;
-	
+	padding: 50px;	
+	overflow:scroll;	
 	background-color:#ffffffcc;
-	
 	border: 5px solid #00000026;
-	border-radius:30px;
-	
+	border-radius:30px;	
 	font-family: 'Itim', cursive;
 	text-align: center;
 }
@@ -191,6 +186,7 @@ h3::after {
      color: white;
      text-decoration: none;
 }
+
 /* referral links */
  #ref {
      color:grey;
@@ -202,6 +198,13 @@ h3::after {
  #ref a {
      color:grey;
 }
+
+/* body links */
+.body a {
+	color: #d1a192;
+	text-decoration: wavy underline;
+}
+
 /* ITEMS */
  .item {
 	 height: auto;
