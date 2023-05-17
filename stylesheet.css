@@ -25,8 +25,8 @@ input:checked + label[for='everything'] ~ .css-filters img:not([data-everything]
 @keyframes hideFilter {
 	50% {
 		transform:scale(0);
-		height:100px;
-		width:100px;
+		height:50%;
+		width:50%;
     }
 	100% {
 		transform:scale(0);
@@ -45,7 +45,7 @@ input:checked + label[for='everything'] ~ .css-filters img:not([data-everything]
 }
 
 .css-filters > div {
-	transition:.6s ease-in-out;
+	transition:.8s ease-in-out;
 }
 
 /* style */
