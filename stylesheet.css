@@ -51,6 +51,7 @@ input:checked + label[for='everything'] ~ .css-filters img:not([data-everything]
 	display: inline-block;
 	width: 100%;
 	text-align:center;
+	vertical-align: middle;
 }
 
 .css-filters > div {
@@ -218,7 +219,7 @@ h3::after {
      height:75px;
 }
  .item p {
-     max-height: 20px;
+     max-height: 40px;
      overflow:hidden;
 }
  .item a {
