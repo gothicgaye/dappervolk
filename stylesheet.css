@@ -215,7 +215,7 @@ h3::after {
      height:75px;
 }
  .item p {
-     line-height: 35px;
+     height: 20px;
      overflow:hidden;
 }
  .item a {
