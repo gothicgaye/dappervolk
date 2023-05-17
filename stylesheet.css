@@ -17,6 +17,10 @@ input:checked + label[for='pp'] ~ .css-filters div:not([data-pp]), input:checked
 	display: none;
 }
 
+input:checked + label[for='everything'] ~ .css-filters div:not([data-everything]), input:checked + label[for='akane'] ~ .css-filters div:not([data-akane]), input:checked + label[for='zacchaeus'] ~ .css-filters div:not([data-zacchaeus]), input:checked + label[for='kari'] ~ .css-filters div:not([data-kari]), input:checked + label[for='callistephus'] ~ .css-filters div:not([data-callistephus]){
+	display: none;
+}
+
 /* animation */
 @keyframes hideFilter {
 	50% {
@@ -40,8 +44,8 @@ input:checked + label[for='pp'] ~ .css-filters div:not([data-pp]), input:checked
 }
 
 .css-filters > div {
-	/* transition: .10s ease-in-out;
-	animation: hideFilter .8s 1 forwards!important; */
+	/* transition: .10s ease-in-out;*/
+	animation: hideFilter .8s 1 forwards!important; 
 }
 
 /* style */
@@ -164,7 +168,6 @@ h3::after {
      height:auto;
      margin:10px;
      display:inline-block;
-     transition:.6s ease-in-out;
      padding:10px;
      border-radius:30px;
 }
@@ -186,7 +189,6 @@ h3::after {
      margin:10px;
      text-align: center;
      display:inline-block;
-     transition:.6s ease-in-out;
      padding:10px;
      border-radius:30px;
 }
@@ -215,7 +217,6 @@ h3::after {
      height: auto;
      width: 80px;
      text-align: center;
-     transition:.6s ease-in-out;
      padding:10px;
      background-color:#d1a1923d;
      border-radius:30px;
