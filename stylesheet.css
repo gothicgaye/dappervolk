@@ -49,6 +49,12 @@ input:checked + label[for='everything'] ~ .css-filters div:not([data-everything]
 }
 
 /* style */
+
+input {
+	margin-right:10px;
+	margin-bottom:10px;
+}
+
 label {
 	margin-right:10px;
 	margin-bottom:10px;
@@ -56,9 +62,13 @@ label {
 	text-transform:lowercase;
 }
 
-input {
-	margin-right:10px;
-	margin-bottom:10px;
+input [type="radio"] {
+	display: none;
+}
+
+label [type="radio"] {
+	padding: 3px;
+	
 }
 
 /* MAIN BODY */
@@ -115,25 +125,28 @@ h3::after {
 }
 
 /* DESCRIPTION */
- .desc {
-     width:60%;
-     height:auto;
-     margin: 0 auto;
-     padding:10px;
-     overflow:hidden;
-     background-color:#d1a19226;
-     border-radius:3px;
-     font-size:12px;
-     font-family: 'IBM Plex Mono', monospace;
+.desc {
+	width:60%;
+	height:auto;
+	margin: 0 auto;
+	padding:10px;
+	overflow:hidden;
+	background-color:#d1a19226;
+	border-radius:3px;
+	font-size:12px;
+	font-family: 'IBM Plex Mono', monospace;
 }
- .desc img {
-     height: 120px;
-     margin-top:10px;
+
+.desc img {
+	height: 120px;
+	margin-top:10px;
 }
- .desc p {
-     vertical-align: middle;
-     padding:5px;
+
+.desc p {
+	vertical-align: middle;
+	padding:5px;
 }
+
 /* LINKS */
 /* main links */
  .links {
@@ -238,6 +251,7 @@ h3::after {
 .look img {
 	margin:10px;
 	border-radius:10%;
+	border: 4px solid #d1a192;
 }
 /* OTHER STUFF */
 .el {
