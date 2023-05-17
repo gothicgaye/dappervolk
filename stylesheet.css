@@ -81,6 +81,10 @@ label::after {
 	color: #d1a192;
 }
 
+label:checked {
+	text-decoration: 1px wavy underline #d1a192;
+}
+
 /* MAIN BODY */
 body {
 	background-image: url("https://dappervolk.com/files/Mar2023_02wsZ/month33promoS.jpg");
