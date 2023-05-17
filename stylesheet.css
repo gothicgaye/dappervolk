@@ -47,7 +47,7 @@ input:checked + label[for='everything'] ~ .css-filters img:not([data-everything]
 .css-filters {
 	padding-top: 30px;
 	padding-bottom: 30px;
-	display-inline:block;
+	display: inline-block;
 	text-align:center;
 }
 
