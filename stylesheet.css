@@ -295,6 +295,12 @@ p > a {
 	border: 1px solid #d1a192;
 }
 
+/* HOME TEXT */
+.home {
+	width: 75%;
+	font-family: 'Klee One', cursive;
+}
+
 /* OTHER STUFF */
 .el {
 	height:15px !important;
