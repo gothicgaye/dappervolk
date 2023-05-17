@@ -34,7 +34,7 @@ input:checked + label[for='akane'] ~ .css-filters img:not([data-akane]), input:c
 	50% {
 		transform:scale(0);
 		height:50%;
-		width:50%;
+		width:75px;
     }
 	100% {
 		transform:scale(0);
@@ -43,8 +43,8 @@ input:checked + label[for='akane'] ~ .css-filters img:not([data-akane]), input:c
 		margin:0;
 		padding:0;
 		border:0;
-		visibility: collapse;
 		opacity:0;
+		visibility: hidden;
 		position: absolute;
     }
 }
