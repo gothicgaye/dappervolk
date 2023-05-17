@@ -219,8 +219,10 @@ h3::after {
      height:75px;
 }
  .item p {
-     max-height: 40px;
-     overflow:hidden;
+	 height: auto;
+	 min-height:20px;
+	 max-height: 40px;
+	 overflow:hidden;
 }
  .item a {
      text-decoration:none;
