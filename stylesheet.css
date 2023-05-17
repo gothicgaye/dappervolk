@@ -200,7 +200,7 @@ h3::after {
 }
 
 /* body links */
-.body a {
+p > a {
 	color: #d1a192;
 	text-decoration: wavy underline;
 }
