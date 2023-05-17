@@ -203,13 +203,17 @@ h3::after {
 }
 /* ITEMS */
  .item {
-     width: 150px;
-     height: auto;
-     margin: 10px;
-     padding: 10px;
-     border-radius:30px;
+	 height: auto;
+	 width: 150px;
+     
+	 margin: 10px;
+	 padding: 10px;
+
+	 border-radius:30px;
+	 display: inline-block;
 }
- .item img {
+
+.item img {
      height:75px;
 }
  .item p {
