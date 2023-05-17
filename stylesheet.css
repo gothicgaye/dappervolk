@@ -217,7 +217,7 @@ h3::after {
      height:75px;
 }
  .item p {
-     height: 20px;
+     max-height: 20px;
      overflow:hidden;
 }
  .item a {
