@@ -46,7 +46,7 @@ input:checked + label[for='everything'] ~ .css-filters img:not([data-everything]
 }
 
 .css-filters > div {
-	transition: 10s ease-in-out;
+	transition:.6s ease-in-out;
 }
 
 /* style */
