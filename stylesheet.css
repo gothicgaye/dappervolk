@@ -102,7 +102,8 @@ label:checked {
 /* MAIN BODY */
 body {
 	background-image: url("https://dappervolk.com/files/Mar2023_02wsZ/month33promoS.jpg");
-	background-size: cover;	
+	background-size: cover;
+	overflow:hidden;
 	
 	-ms-overflow-style: none;  /* IE and Edge */
 	scrollbar-width: none;  /* Firefox */
