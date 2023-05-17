@@ -105,6 +105,7 @@ body {
 	border-radius:30px;
 	font-family: 'Itim', cursive;
 	text-align: center;
+	scrollbar-width: 0px;
 }
 
 /* TITLES */
