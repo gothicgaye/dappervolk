@@ -260,6 +260,12 @@ h3::after {
 	border-radius:10%;
 	border: 4px solid #d1a192;
 }
+
+.look {
+	display: inline-block;
+	text-align: center;
+}
+
 /* OTHER STUFF */
 .el {
 	height:15px !important;
