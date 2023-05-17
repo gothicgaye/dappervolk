@@ -80,7 +80,7 @@ label::before {
 }
 
 label::after {
-	content: "🎔  ";
+	content: " ";
 	color: #d1a192;
 }
 
