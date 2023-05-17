@@ -35,19 +35,19 @@
 				</p>
 			</div>
 			<br>
-      <br>
-      <div w3-include-html="displays/mylinks.html"></div>
 			<br>
-      <input type="radio" id="everything" name="filter-group">
-			<label for="">all / todos</label>
+			<div w3-include-html="displays/mylinks.html"></div>
+			<br>
+			<input type="radio" id="everything" name="filter-group">
+			<label for="everything">all / todos</label>
 			<input type="radio" id="evolved" name="filter-group">
 			<label for="evolved">evolved / evoluídos</label>
 			<input type="radio" id="not" name="filter-group">
 			<label for="not">not evolved / não evoluídos</label>
 			<section class="css-filters">
-        				<div data-evolved data-not w3-include-html="displays/mypets.html"></div>
-      </section>
-      </div>
+				<div data-evolved data-not w3-include-html="displays/mypets.html"></div>
+			</section>
+		</div>
 		<script>
 			includeHTML();
 		</script>
