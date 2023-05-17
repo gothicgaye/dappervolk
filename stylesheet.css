@@ -55,26 +55,28 @@ input {
 	cursor:pointer;
 }
 
-label {
-	margin-right:15px;
-	margin-bottom:15px;
-	min-width:40px;
-	text-transform:lowercase;
-	cursor:pointer;
-}
+
 
 input[type="radio"] {
 	display: none;
 }
 
 label {
+	margin-right:15px;
+	margin-bottom:15px;
+	line-height: 35px;
+	min-width:40px;
+	text-transform:lowercase;
+	cursor:pointer;
+	
+	
 	padding: 3px;
 	background-color: #d1a19226;
 	border: 1px solid #d1a192;
 }
 
 label::before {
-	content: "🎔";
+	content: "🎔 ";
 	color: #d1a192;
 }
 
