@@ -63,8 +63,6 @@ input {
 	cursor:pointer;
 }
 
-
-
 input[type="radio"] {
 	display: none;
 }
@@ -72,11 +70,12 @@ input[type="radio"] {
 label {
 	margin-right:15px;
 	margin-bottom:15px;
-	line-height: 40px;
-	min-width:40px;
-	text-transform:lowercase;
-	cursor:pointer;	
 	padding: 3px;
+	
+	line-height: 40px;
+	text-transform:lowercase;
+	
+	cursor:pointer;	
 }
 
 label::before {
@@ -90,7 +89,7 @@ label::after {
 }
 
 label:checked {
-	text-decoration: 1px wavy underline #d1a192;
+	text-decoration: wavy underline #d1a192 1px;
 }
 
 /* MAIN BODY */
@@ -100,17 +99,21 @@ body {
 }
 
 .body {
-	width: 800px;
 	height:450px;
+	width: 800px;
+	
 	margin: 50px auto;
 	padding: 50px;
+	
 	overflow:scroll;
+	
 	background-color:#ffffffcc;
+	
 	border: 5px solid #00000026;
 	border-radius:30px;
+	
 	font-family: 'Itim', cursive;
 	text-align: center;
-	scrollbar-width: 0px;
 }
 
 /* TITLES */
