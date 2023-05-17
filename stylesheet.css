@@ -6,19 +6,19 @@ input:checked + label[for='everything'] ~ .css-filters div:not([data-everything]
 }
 
 input:checked + label[for='everything'] ~ .css-filters div:not([data-everything]), input:checked + label[for='alchemy'] ~ .css-filters div:not([data-alchemy]),input:checked + label[for='season'] ~ .css-filters div:not([data-season]), input:checked + label[for='common'] ~ .css-filters div:not([data-common]),input:checked + label[for='custom'] ~ .css-filters div:not([data-custom]), input:checked + label[for='exclusive'] ~ .css-filters div:not([data-exclusive]),input:checked + label[for='limited'] ~ .css-filters div:not([data-limited]), input:checked + label[for='rare'] ~ .css-filters div:not([data-rare]){
-	display: none;
+	animation: hideFilter .8s 1 forwards!important;
 }
 
 input:checked + label[for='everything'] ~ .css-filters div:not([data-everything]), input:checked + label[for='evolved'] ~ .css-filters div:not([data-evolved]), input:checked + label[for='not'] ~ .css-filters div:not([data-not]){
-	display: none;
+	animation: hideFilter .8s 1 forwards!important;
 }
 
 input:checked + label[for='pp'] ~ .css-filters div:not([data-pp]), input:checked + label[for='rt'] ~ .css-filters div:not([data-rt]), input:checked + label[for='tf'] ~ .css-filters div:not([data-tf]), input:checked + label[for='lh'] ~ .css-filters div:not([data-lh]), input:checked + label[for='sm'] ~ .css-filters div:not([data-sm]), input:checked + label[for='special'] ~ .css-filters div:not([data-special]), input:checked + label[for='ac'] ~ .css-filters div:not([data-ac]), input:checked + label[for='vr'] ~ .css-filters div:not([data-vr]) {
-	display: none;
+	animation: hideFilter .8s 1 forwards!important;
 }
 
 input:checked + label[for='everything'] ~ .css-filters img:not([data-everything]), input:checked + label[for='akane'] ~ .css-filters img:not([data-akane]), input:checked + label[for='zacchaeus'] ~ .css-filters img:not([data-zacchaeus]), input:checked + label[for='kari'] ~ .css-filters img:not([data-kari]), input:checked + label[for='callistephus'] ~ .css-filters img:not([data-callistephus]){
-	display: none;
+	animation: hideFilter .8s 1 forwards!important;
 }
 
 /* animation */
@@ -33,6 +33,7 @@ input:checked + label[for='everything'] ~ .css-filters img:not([data-everything]
 		width:0;
 		height:0;
 		margin:0;
+		display:none;
     }
 }
 
