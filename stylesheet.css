@@ -64,19 +64,17 @@ input[type="radio"] {
 label {
 	margin-right:15px;
 	margin-bottom:15px;
-	line-height: 35px;
+	line-height: 40px;
 	min-width:40px;
 	text-transform:lowercase;
-	cursor:pointer;
-	
-	
+	cursor:pointer;	
 	padding: 3px;
 	background-color: #d1a19226;
 	border: 1px solid #d1a192;
 }
 
 label::before {
-	content: "🎔 ";
+	content: "🎔  ";
 	color: #d1a192;
 }
 
