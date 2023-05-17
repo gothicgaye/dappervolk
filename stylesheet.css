@@ -44,7 +44,7 @@ input:checked + label[for='everything'] ~ .css-filters div:not([data-everything]
 }
 
 .css-filters > div {
-	/* transition: .10s ease-in-out;
+	/* transition: .10s ease-in-out; 
 	animation: hideFilter .8s 1 forwards!important; */
 }
 
@@ -61,11 +61,11 @@ label {
 	text-transform:lowercase;
 }
 
-input [type="radio"] {
+input[type="radio"] {
 	display: none;
 }
 
-label [type="radio"] {
+label[type="radio"] {
 	padding: 3px;
 	
 }
