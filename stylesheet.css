@@ -274,21 +274,22 @@ h3::after {
 }
 .hub {
 	display: inline-flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 }
 
  .hubitem {
-     display:inline-block;
-     height: auto;
-     width: 80px;
-     text-align: center;
-     padding:10px;
-     background-color:#d1a1923d;
-     border-radius:30px;
-     margin:5px;
-     vertical-align:middle;
-     font-size:12px;
+    	 display:inline-block;
+	 height: auto;
+	 width: 80px;
+	 text-align: center;
+	 padding:10px;
+	 background-color:#d1a1923d;
+	 border-radius:30px;
+	 margin:5px;
+	 vertical-align:middle;
+	 font-size:12px;
 	 justify-content: center;
 	 align-items: center;
 }
