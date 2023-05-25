@@ -241,6 +241,7 @@ h3::after {
 	margin-top: 10px;
 	font-size: 14px;
 	font-style: italic;
+	text-align:left;
 }
 
 .dropdown:hover .dropdown-content {
