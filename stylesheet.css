@@ -188,6 +188,14 @@ h3::after {
 	font-family: "Roboto Condensed", "Helvetica", "Arial", sans-serif;
 	line-height: 40px;
 	text-transform: uppercase;
+	
+	position: absolute;
+	padding: 5px 0;
+	margin-left: -50px;
+	margin-top:-50px;
+	width: 900px;
+	border-radius: 23px 0 0 0;
+	background-color: #d1a192;
 }
 .links a {
 	margin-right: 10px;
