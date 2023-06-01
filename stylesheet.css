@@ -369,6 +369,27 @@ h3::after {
     color: black;
     padding-bottom: 5px;
 }
+
+/* stocks */
+.stock {
+    font-family: "Roboto Condensed", "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+}
+
+.icon {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  background-image: url("https://dappervolk.com/img/spritesheet.png");
+  background-repeat: no-repeat;
+}
+
+.icon.potato {
+  width: 16px;
+  height: 17px;
+  background-position: -100px -150px;
+}
+
 /* LOOKBOOK */
 .look {
     margin: 10px;
