@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- TITLE -->
+		<title>Melinoe's Stocks || DAPPERVOLK</title>
+		<!-- FAVICON -->
+		<link rel="icon" type="image/x-icon" href="https://dappervolk.com/img/items/3/3181-gcYKJ8BP3x-curios-clothier-shop.png">
+		<!-- FONTS -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Grandstander&display=swap" rel="stylesheet">
+		 <link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet"> 
+		<!-- STYLESHEET -->
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<!-- DESCRIPTION -->
+		<meta name="description" content="Melinoe's Home">
+	</head>
+	<!-- SCRIPT -->
+	<script type="text/javascript" src="js/includeHTML.js"></script>
+	<script type="text/javascript" src="js/redirect.js"></script>
+	<!-- BODY -->
+	<body>
+		<div class="body">
+			<div w3-include-html="displays/mylinks.html"></div>
+			<img src="https://dappervolk.com/img/link-banners//2.gif">
+			<h1 class="title" >Melinoe's Stock</h1>
+			<div class="desc">
+				<img style="" src="https://dappervolk.com/img/avatars/13/13319-header.png" />
+				<p>
+					<b>Marion</b> (they/them).<br>
+					User <b>MELINOE (#30808)</b> @ D<u>appervol</u>k.
+					<br><br>
+					<b><i>ABOUT THIS PAGE————————</i></b> This is my stock, made for organization purposes. All of them are avaiable for sale.
+				</p>
+			</div>
+			<br>
+			<br>
+			<br>
+			<h2>Clothing & Items</h2>
+			<p id="ref"><a  href="/dappervolk/wishpets">[ Pets here ]</a></p>
+			<input type="radio" id="everything" name="filter-group">
+			<label for="everything">all / todos </label>
+			<input type="radio" id="custom" name="filter-group">
+			<label for="custom">custom</label>
+			<!--<input type="radio" id="legend" name="filter-group">
+			<label for="legend">legendary</label>-->
+			<input type="radio" id="oran" name="filter-group">
+			<label for="oran">oran's emporium</label>
+			<input type="radio" id="fine" name="filter-group">
+			<label for="fine">oran's fine goods exchange</label>
+			<input type="radio" id="pai" name="filter-group">
+			<label for="pai">pai's shop of wonders</label>
+			<input type="radio" id="season" name="filter-group">
+			<label for="season">seasonal</label>
+			<input type="radio" id="rare" name="filter-group">
+			<label for="rare">rare</label>
+			<input type="radio" id="uncommon" name="filter-group">
+			<label for="uncommon">uncommon</label>
+			<input type="radio" id="common" name="filter-group">
+			<label for="common">common</label>
+			<section class="css-filters">
+				<div data-custom data-legend data-oran data-fine data-pai data-season data-rare data-uncommon data-common w3-include-html="displays/mystock.html"></div>
+			</section>
+		</div>
+		<script>
+			includeHTML();
+		</script>
+	</body>
+</html>
