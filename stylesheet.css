@@ -237,7 +237,6 @@ h3::after {
 .dropdown-content {
     border-top: 5px solid #D1A192;
     display: none;
-    margin-top: 8px;
     position: absolute;
     z-index: 1;
 }
@@ -424,4 +423,3 @@ h3::after {
 #seasonq {
     background-color: #76a6353d;
 }
-
