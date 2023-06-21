@@ -40,7 +40,29 @@
 			<br>
 			<br>
 			<h2>Items</h2>
-			<div data-common data-rare data-alchemy data-season data-limited data-exclusive data-custom w3-include-html="displays/mywishitems.html"></div>
+						<input type="radio" id="everything" name="filter-group">
+			<label for="everything">all / todos </label>
+			<input type="radio" id="custom" name="filter-group">
+			<label for="custom">custom</label>
+			<!--<input type="radio" id="legend" name="filter-group">
+			<label for="legend">legendary</label>-->
+			<input type="radio" id="oran" name="filter-group">
+			<label for="oran">oran's emporium</label>
+			<input type="radio" id="fine" name="filter-group">
+			<label for="fine">oran's fine goods exchange</label>
+			<input type="radio" id="pai" name="filter-group">
+			<label for="pai">pai's shop of wonders</label>
+			<input type="radio" id="season" name="filter-group">
+			<label for="season">seasonal</label>
+			<input type="radio" id="rare" name="filter-group">
+			<label for="rare">rare</label>
+			<input type="radio" id="uncommon" name="filter-group">
+			<label for="uncommon">uncommon</label>
+			<input type="radio" id="common" name="filter-group">
+			<label for="common">common</label>
+			<section class="css-filters">
+				<div data-common data-rare data-alchemy data-season data-limited data-exclusive data-custom w3-include-html="displays/mywishitems.html"></div>
+			</section>
 		</div>
 		<script>
 			includeHTML();
